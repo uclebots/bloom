@@ -8,6 +8,9 @@ module.exports = {
         "filename": "bundle.js"
     },
     "devtool": "source-map",
+    "devServer": {
+        "host": "0.0.0.0"
+    },
     "module": {
         "rules": [
             {
